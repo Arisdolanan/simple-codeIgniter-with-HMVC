@@ -1,3 +1,5 @@
-# CodeIgniter-3.1.10-with-HMVC
-Template
-CodeIgniter 3.1.10 with HMVC <3
+#Template
+CodeIgniter with HMVC <3
+
+v3x > 3.1.10
+v4x > 4.2.11
