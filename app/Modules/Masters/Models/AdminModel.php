@@ -1,7 +1,9 @@
 <?php
-/* 
-    php spark make:model App/Modules/Master/Models/AdminModel 
-*/
+
+/**
+ * php spark make:model App/Modules/Master/Models/AdminModel
+ *
+ */
 
 namespace App\Modules\Masters\Models;
 
