@@ -1,11 +1,13 @@
 <?php
 
-if(!isset($routes))
-{ 
-    $routes = \Config\Services::routes(true);
-}
+namespace App\Modules\Masters\Config;
 
-/*** Group Admin ***/
-$routes->group('report', ['namespace' => 'App\Modules\Reports\Controllers'], function($subroutes){
-    $subroutes->add('test', 'ReportController::index');
+use CodeIgniter\Router\RouteCollection;
+
+/**
+ * @var RouteCollection $routes
+ */
+
+$routes->group('report', ['namespace' => 'App\Modules\Reports\Controllers'], static function ($routes) {
+    $routes->get('/', 'ReportControllers::index');
 });
